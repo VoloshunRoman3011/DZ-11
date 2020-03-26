@@ -13,6 +13,56 @@ a {
 h1, h2, h3, h4, h5, h6, p, a, span{
     font-family: 'Oswald', sans-serif;
 }
+
+/*************************HEADER***********************************/
+header{
+    padding: 18px 0 215px;
+    background-color: #000;
+}
+header .container{
+    max-width: 1012px;
+    margin: auto;
+}
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+header .nav a{
+    font-size: 18px;
+    color: white;
+}
+header .nav a:hover{
+    text-decoration: line-through;
+}
+header .flaga{
+    margin: auto;
+}
+header .Premier_Palace{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+}
+header .Premier_Palace h1{
+    font-size: 69px;
+}
+header .Premier_Palace p{
+    font-size: 34px;
+    font-weight: bold;
+}
+header .Premier_Palace a{
+    font-size: 18px;
+    border: 4px solid #fff;
+    line-height: 50px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+/*************************HEADER***********************************/
+
+/*************************SECTION**********************************/
 .container{
     display: flex;
     max-width: 840px;
@@ -154,5 +204,5 @@ section h3{
 }
 .container_4 p{
     font-size: 18px;
-
 }
+/*************************SECTION**********************************/
