@@ -43,7 +43,8 @@ header .Premier_Palace{
     color: white;
     display: flex;
     flex-direction: column;
-    /*justify-content: flex-end;*/
+    justify-content: flex-end;
+    width: 269px;
 }
 header .Premier_Palace h1{
     font-size: 69px;
