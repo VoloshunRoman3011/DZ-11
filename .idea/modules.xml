@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DZ 007/.idea/DZ 007.iml" filepath="$PROJECT_DIR$/../DZ 007/.idea/DZ 007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DZ 07/.idea/DZ 07.iml" filepath="$PROJECT_DIR$/../DZ 07/.idea/DZ 07.iml" />
       <module fileurl="file://$PROJECT_DIR$/../DZ 10/.idea/DZ 10.iml" filepath="$PROJECT_DIR$/../DZ 10/.idea/DZ 10.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DZ 11.iml" filepath="$PROJECT_DIR$/.idea/DZ 11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../nev_2/.idea/nev_2.iml" filepath="$PROJECT_DIR$/../../nev_2/.idea/nev_2.iml" />
     </modules>
   </component>
 </project>

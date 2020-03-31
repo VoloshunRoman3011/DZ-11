@@ -16,12 +16,14 @@ h1, h2, h3, h4, h5, h6, p, a, span{
 
 /*************************HEADER***********************************/
 header{
-    padding: 18px 0 215px;
+    padding: 18px 0 218px;
     background-color: #000;
+    /*height: 100vh;*/
 }
-header .container{
+.container{
     max-width: 1012px;
     margin: auto;
+    position: relative;
 }
 header .nav{
     display: flex;
@@ -37,19 +39,19 @@ header .nav a:hover{
     text-decoration: line-through;
 }
 header .flaga{
+    display: flex;
     margin: auto;
 }
 header .Premier_Palace{
     color: white;
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    width: 269px;
+    margin-bottom: 115px;
 }
 header .Premier_Palace h1{
     font-size: 69px;
 }
-header .Premier_Palace p{
+header .Premier_Palace h3{
     font-size: 34px;
     font-weight: bold;
 }
@@ -57,14 +59,62 @@ header .Premier_Palace a{
     font-size: 18px;
     border: 4px solid #fff;
     line-height: 50px;
-    padding: 0 20px;
+    padding: 15px 20px;
     text-transform: uppercase;
+}
+header .Premier_Palace .mt{
     margin-top: 50px;
 }
+header .ground_floor{
+    display: flex;
+    margin-bottom: 55px;
+}
+header .m_right{
+    margin-right: 100px;
+    text-align: center;
+}
+header p{
+    font-size: 18px;
+    color: #bbbbbb;
+}
+.mw-420px{
+    max-width: 420px;
+}
+header p.font_size{
+    font-size: 16px;
+}
+    /**************ARTICKE*****************/
+article{
+    padding: 90px 0 140px;
+    background-color: black;
+    border-top: 2px solid #fff;
+}
+article h3{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.mb-82px{
+    margin-bottom: 82px;
+}
+.mb-110px{
+    margin-bottom: 110px;
+}
+.m-vertical{
+    margin: 34px 0;
+}
+article img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -66px;
+}
+    /**************ARTICKE****************/
+
 /*************************HEADER***********************************/
 
 /*************************SECTION**********************************/
-.container{
+section .container{
     display: flex;
     max-width: 840px;
     margin: auto;
